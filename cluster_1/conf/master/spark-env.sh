@@ -30,7 +30,6 @@ export SPARK_LOCAL_IP="10.128.6.72"
 
 # Options read by executors and drivers running inside the cluster
 # - SPARK_LOCAL_IP, to set the IP address Spark binds to on this node
-export SPARK_LOCAL_IP="10.128.6.72"
 # - SPARK_PUBLIC_DNS, to set the public DNS name of the driver program
 # - SPARK_CLASSPATH, default classpath entries to append
 # - SPARK_LOCAL_DIRS, storage directories to use on this node for shuffle and RDD data
@@ -50,6 +49,7 @@ export SPARK_LOCAL_DIRS="/data/spark-1.6.2/cluster_1/data/master"
 
 # Options for the daemons used in the standalone deploy mode
 # - SPARK_MASTER_IP, to bind the master to a different IP address or hostname
+export SPARK_MASTER_IP="10.128.6.72"
 # - SPARK_MASTER_PORT / SPARK_MASTER_WEBUI_PORT, to use non-default ports for the master
 # - SPARK_MASTER_OPTS, to set config properties only for the master (e.g. "-Dx=y")
 # - SPARK_WORKER_CORES, to set the number of cores to use on this machine
